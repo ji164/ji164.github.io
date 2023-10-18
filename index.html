@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .shadowbox {
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    }
+    .one{
+        width: 500px;
+        height:500px;
+        background-color: aqua;
+        position:absolute;
+        top:300px;
+        left:300px;
+        /* 绝对定位 */
+    }
+
+    .two{
+        width: 400px;
+        height: 400px;
+        background-color: antiquewhite;
+        position: relative;
+        top:200px;
+        left:200px;
+        /* 相对定位 */
+    }
+
+    .three{
+        width:300px;
+        height:300px;
+        background-color: chocolate;
+        position:fixed;
+        top:auto;
+        right:0px;
+        /* 相对浏览器定位 */
+    }
+
+    </style>
+</head>9
+<body>
+    <div class="shadowbox">
+        <p>黄黎黠宝贝爱你哦</p>
+    </div>
+    <div class="one">
+        <p>想你 day one</p>
+    </div>
+    <div class="two">
+        <p>想你 day two</p>
+    </div>
+    <div class="three">
+        <p>想你 day three</p>
+    </div>
+</body>
+</html>
